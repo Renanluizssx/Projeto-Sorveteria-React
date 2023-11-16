@@ -1,12 +1,12 @@
 import React from "react";
 import "../Footer/style.css";
-
+import logo from "../../Assets/logo.png";
 function Rodape() {
   return (
     <footer>
       <div>
         <div>
-          <img src="Assets/logo.png" alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
         <div>
           <h3>ENDEREÇO</h3>

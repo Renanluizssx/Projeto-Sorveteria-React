@@ -1,16 +1,10 @@
 import React from "react";
-<<<<<<< HEAD
 import Topo from "../../Componentes/Header";
 import Rodape from "../../Componentes/Footer";
 import "../Home/home.css";
 import bannerSabores from "../../Assets/banner-sabores.jpg";
 import eventos from "../../Assets/eventos-image.jpg";
 import sobreImage from "../../Assets/sobre-image.jpg";
-=======
-import Topo from "../../componentes/Header";
-import Rodape from "../../componentes/Footer";
-import "../Home/home.css";
->>>>>>> a5b1eb168fba7aa7db754185d042533b5a3d46ce
 function Home() {
   return (
     <>
@@ -36,11 +30,7 @@ function Home() {
               delicioso e saudável do mesmo tempo!
             </p>
           </div>
-<<<<<<< HEAD
           <img src={bannerSabores} alt="sorvete" />
-=======
-          <img src="Assets/banner-sabores.jpg" alt="sorvete" />
->>>>>>> a5b1eb168fba7aa7db754185d042533b5a3d46ce
         </section>
         <section className="secao-eventos">
           <div>
@@ -55,11 +45,7 @@ function Home() {
               aqui com a gente.
             </p>
           </div>
-<<<<<<< HEAD
           <img src={eventos} alt="Sorvete" />
-=======
-          <img src="Assets/eventos-image.jpg" alt="Sorvete" />
->>>>>>> a5b1eb168fba7aa7db754185d042533b5a3d46ce
         </section>
         <section className="secao-sobre">
           <div>
@@ -75,11 +61,7 @@ function Home() {
               cidade.
             </p>
           </div>
-<<<<<<< HEAD
           <img src={sobreImage} alt="Sorvete" />
-=======
-          <img src="Assets/sobre-image.jpg" alt="Sorvete" />
->>>>>>> a5b1eb168fba7aa7db754185d042533b5a3d46ce
         </section>
       </main>
 
