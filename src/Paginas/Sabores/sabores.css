@@ -1,0 +1,76 @@
+.first-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:500px;
+    background-image: url('../../../public/Assets/banner-sabores.jpg');
+}
+.second-section .subtitle {
+    margin-top:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.first-section div h1 {
+    color:white;
+    font-size: 45px;
+    text-shadow: #000 2px 3px 2px;
+}
+
+.second-section .combo-component {
+    margin-bottom:60px;
+} 
+.second-section .combo-component div p {
+    font-size:15px;
+    text-align: center;
+    margin-left:0px;
+    margin-right: 0px;
+}
+.second-section .combo-component div {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second-section .component {
+    box-shadow: 1px 1px 5px gray;
+    margin:10px;
+    width:270px;
+    height:370px;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second-section .component img {
+    width:200px;
+}
+
+@media screen and (max-width:479px) {
+
+        .first-section div {
+            text-align: center;
+        }
+        .second-section .combo-component div {
+            flex-direction: column;
+        }
+    
+}
+@media screen and (min-width:480px) and (max-width:870px) {
+
+       .second-section .component {
+    width:380px;
+
+}
+.second-section .combo-component div {
+        flex-direction: column;
+}
+
+}
