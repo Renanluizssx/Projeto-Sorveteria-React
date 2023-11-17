@@ -30,7 +30,9 @@ function Home() {
               delicioso e saudável do mesmo tempo!
             </p>
           </div>
-          <img src={bannerSabores} alt="sorvete" />
+          <div>
+            <img src={bannerSabores} alt="sorvete" />
+          </div>
         </section>
         <section className="secao-eventos">
           <div>
@@ -45,7 +47,9 @@ function Home() {
               aqui com a gente.
             </p>
           </div>
-          <img src={eventos} alt="Sorvete" />
+          <div>
+            <img src={eventos} alt="Sorvete" />
+          </div>
         </section>
         <section className="secao-sobre">
           <div>
@@ -61,7 +65,9 @@ function Home() {
               cidade.
             </p>
           </div>
-          <img src={sobreImage} alt="Sorvete" />
+          <div>
+            <img src={sobreImage} alt="Sorvete" />
+          </div>
         </section>
       </main>
 

@@ -8,14 +8,6 @@
   height: 600px;
 }
 .secao-banner div {
-  /*
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-
-    */
   height: 100%;
   background: linear-gradient(47deg, #000113 0%, #04061d 80%, #04061d 100%);
   background-image: url("../../Assets/banner-home.png");
@@ -29,24 +21,32 @@
   font-size: 45px;
   text-shadow: #000 2px 3px 2px;
 }
-.secao-sabores {
-  display: grid;
-  grid: auto / 50% 50%;
+.secao-eventos,
+.secao-sabores,
+.secao-sobre {
   display: flex;
+}
+.secao-eventos {
   flex-direction: row-reverse;
 }
-.secao-sabores img {
+.secao-sobre {
+  flex-direction: row;
+}
+.secao-sabores img,
+.secao-eventos img,
+.secao-sobre img {
   width: 100%;
+  height: 100%;
 }
 .secao-sabores div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 .secao-sabores p,
-.secao-sobre p {
+.secao-sobre p,
+.secao-eventos p {
   font-size: 15px;
   text-align: center;
   margin: 50px;
@@ -58,22 +58,11 @@
   font-size: 22px;
   font-weight: bold;
 }
-.secao-eventos {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  display: grid;
-  grid: auto / 50% 50%;
-}
-.secao-eventos img {
-  width: 100%;
-}
 .secao-eventos div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
   text-align: center;
 }
 .secao-eventos h2 {
@@ -81,9 +70,6 @@
 }
 .secao-eventos p {
   margin: 50px;
-}
-.secao-eventos img {
-  height: 100%;
 }
 .secao-eventos span {
   font-weight: bold;
@@ -93,26 +79,23 @@
 .secao-eventos div div,
 .secao-sobre div div {
   margin-top: 20px;
+  width: 100%;
 }
 .secao-eventos span,
 .secao-sabores span,
 .secao-sobre span {
   text-align: center;
 }
-.secao-sobre {
-  display: flex;
-  flex-direction: row-reverse;
+.secao-sabores div,
+.secao-eventos div,
+.secao-sobre div {
   width: 100%;
-  display: grid;
-  grid: auto / 50% 50%;
-  display: flex;
 }
 .secao-sobre div {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
 }
 .secao-sobre h2 {
   font-size: 35px;
@@ -124,9 +107,6 @@
 .secao-sobre p {
   text-align: center;
   margin: 50px;
-}
-.secao-sobre img {
-  width: 100%;
 }
 
 @media screen and (max-width: 425px) {

@@ -4,7 +4,6 @@ import Topo from "../../Componentes/Header";
 import Footer from "../../Componentes/Footer";
 import sobreImagem from "../../Assets/sobre-image.jpg";
 import sorveteria from "../../Assets/sorveteria.jpg";
-
 function Sobre() {
   return (
     <>
@@ -43,8 +42,6 @@ function Sobre() {
         <section className="third-section">
           <img src={sobreImagem} alt="Sorvete" />
           <img src={sorveteria} alt="Sorvete" />
-          <img src="Assets/sobre-image.jpg" alt="Sorvete" />
-          <img src="Assets/sorveteria.jpg" alt="Sorvete" />
         </section>
       </main>
       <Footer />
